@@ -1,0 +1,18 @@
+{
+  "tool": { "name": "<TOOL_NAME>", "version": "0.1.0" },
+  "model": {
+    "repo_id": "<MODEL_REPO_ID>",
+    "architecture": "<MODEL_ARCHITECTURE>",
+    "params_estimate": 12345678
+  },
+  "components": [
+    { "type": "<COMPONENT_TYPE_1>", "name": "<COMPONENT_NAME_1>" },
+    { "type": "<COMPONENT_TYPE_2>", "name": "<COMPONENT_NAME_2>", "count": 1 }
+  ],
+  "environment": {
+    "runtime": "<runtime>",
+    "deps": [
+      { "name": "<DEP_NAME_1>", "version": "x.y.z" }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+# Keep GitHub Linguist language stats focused on source examples.
+
+# Exclude shell scripts from language breakdown.
+*.sh linguist-detectable=false
+scripts/** linguist-detectable=false
+
+# Exclude Docker definitions from language breakdown.
+Dockerfile linguist-detectable=false
+docker/** linguist-detectable=false
