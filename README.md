@@ -24,8 +24,15 @@ docker compose -f docker/docker-compose.yml up --build
 - `tests/`: tests
 - `docs/`: documentation
 - `examples/`: example input directories/output samples
+- `benchmarks/`: benchmark definitions and scenarios
 - `docker/`: Docker runtime configuration
 - `scripts/`: local run/validation/smoke tests
+
+## Evaluation
+- This repository includes a benchmark suite designed to measure the effectiveness of attack mitigation strategies.
+- The benchmark evaluates how well different countermeasure policies reduce or mitigate attack impact under predefined attack scenarios.
+- The benchmark setup is built using **SALAD-Bench**, which provides the underlying structure for defining and executing the evaluation scenarios.
+- For details about the benchmark configuration, input format, and scenario definitions, please refer to the `benchmarks/README.md` file.
 
 ## Input / Output Spec
 
